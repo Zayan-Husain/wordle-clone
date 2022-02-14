@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wordle 2.0</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="menuscreen screen">
+		<div class="btns">
+			<button class="play">Play</button>
+			<button class="words">Words</button>
+			<p>Word length:</p>
+			<select class="wordlengthselect">
+				<option value="4" class="4">4 letters</option>
+				<option value="5" class="5" selected>5 letters</option>
+				<option value="6" class="6">6 letters</option>
+				<option value="7" class="7">7 letters</option>
+				<option value="8" class="8">8 letters</option>
+				<option value="9" class="9">9 letters</option>
+			</select>
+		</div>
+	</div>
+	<div class="gamescreen screen">
+		<div class="letters"></div><br>
+		<button class="submitwordbtn">Submit</button><br>
+		<button class="letterbtn letterbtna" onclick="typeLetter(this.innerText)">a</button>
+		<button class="letterbtn letterbtnb" onclick="typeLetter(this.innerText)">b</button>
+		<button class="letterbtn letterbtnc" onclick="typeLetter(this.innerText)">c</button>
+		<button class="letterbtn letterbtnd" onclick="typeLetter(this.innerText)">d</button>
+		<button class="letterbtn letterbtne" onclick="typeLetter(this.innerText)">e</button>
+		<button class="letterbtn letterbtnf" onclick="typeLetter(this.innerText)">f</button>
+		<button class="letterbtn letterbtng" onclick="typeLetter(this.innerText)">g</button>
+		<button class="letterbtn letterbtnh" onclick="typeLetter(this.innerText)">h</button>
+		<button class="letterbtn letterbtni" onclick="typeLetter(this.innerText)">i</button>
+		<button class="letterbtn letterbtnj" onclick="typeLetter(this.innerText)">j</button>
+		<button class="letterbtn letterbtnk" onclick="typeLetter(this.innerText)">k</button>
+		<button class="letterbtn letterbtnl" onclick="typeLetter(this.innerText)">l</button>
+		<button class="letterbtn letterbtnm" onclick="typeLetter(this.innerText)">m</button>
+		<button class="letterbtn letterbtnn" onclick="typeLetter(this.innerText)">n</button>
+		<button class="letterbtn letterbtno" onclick="typeLetter(this.innerText)">o</button>
+		<button class="letterbtn letterbtnp" onclick="typeLetter(this.innerText)">p</button>
+		<button class="letterbtn letterbtnq" onclick="typeLetter(this.innerText)">q</button>
+		<button class="letterbtn letterbtnr" onclick="typeLetter(this.innerText)">r</button>
+		<button class="letterbtn letterbtns" onclick="typeLetter(this.innerText)">s</button>
+		<button class="letterbtn letterbtnt" onclick="typeLetter(this.innerText)">t</button>
+		<button class="letterbtn letterbtnu" onclick="typeLetter(this.innerText)">u</button>
+		<button class="letterbtn letterbtnv" onclick="typeLetter(this.innerText)">v</button>
+		<button class="letterbtn letterbtnw" onclick="typeLetter(this.innerText)">w</button>
+		<button class="letterbtn letterbtnx" onclick="typeLetter(this.innerText)">x</button>
+		<button class="letterbtn letterbtny" onclick="typeLetter(this.innerText)">y</button>
+		<button class="letterbtn letterbtnz" onclick="typeLetter(this.innerText)">z</button>
+		<button class="letterbtn letterbtnbackspace">Backspace</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- //XMLHttpRequest("https://websitename.com")
+//hey, XMLHttpRequest! can i have your internet information?
+//Sure thing! here: {"title":"No Definitions Found","message":"Sorry pal, we couldn't find definitions for the
+//word you were looking for.","resolution":"You can try the search again at later time or head to the web instead."}
+//Thanks!
+// *Posts that information onto the website* -->
